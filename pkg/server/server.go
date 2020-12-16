@@ -6,14 +6,16 @@ package server
 import (
 	"crypto/subtle"
 	"fmt"
-	"github.com/inlets/inlets/pkg/router"
-	"github.com/inlets/inlets/pkg/transport"
-	"github.com/rancher/remotedialer"
-	"github.com/twinj/uuid"
-	"k8s.io/apimachinery/pkg/util/proxy"
 	"log"
 	"net/http"
 	"sync"
+
+	"github.com/rancher/remotedialer"
+	"github.com/twinj/uuid"
+	"k8s.io/apimachinery/pkg/util/proxy"
+
+	"github.com/inlets/inlets/pkg/router"
+	"github.com/inlets/inlets/pkg/transport"
 )
 
 // Server for the exit-server of inlets

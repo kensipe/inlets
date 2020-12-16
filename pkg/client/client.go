@@ -11,9 +11,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/inlets/inlets/pkg/transport"
 	"github.com/rancher/remotedialer"
 	"github.com/twinj/uuid"
+
+	"github.com/inlets/inlets/pkg/transport"
 )
 
 // Client for inlets

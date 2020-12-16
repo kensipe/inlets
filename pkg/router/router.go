@@ -12,8 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/inlets/inlets/pkg/transport"
 	"github.com/rancher/remotedialer"
+
+	"github.com/inlets/inlets/pkg/transport"
 )
 
 type target struct {

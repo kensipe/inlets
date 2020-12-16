@@ -4,8 +4,9 @@
 package main
 
 import (
-	"github.com/inlets/inlets/cmd"
 	"github.com/sirupsen/logrus"
+
+	"github.com/inlets/inlets/cmd"
 )
 
 // These values will be injected into these variables at the build time.
